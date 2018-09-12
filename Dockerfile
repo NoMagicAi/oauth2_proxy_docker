@@ -16,4 +16,5 @@ RUN apt-get update -y && apt-get install -y ca-certificates
 # to be pass in.
 EXPOSE 8080 4180
 ENTRYPOINT [ "./bin/oauth2_proxy" ]
+COPY authenticated-emails.txt /authenticated-emails.txt
 CMD [ "--upstream=http://0.0.0.0:8080/", "--http-address=0.0.0.0:4180" ]

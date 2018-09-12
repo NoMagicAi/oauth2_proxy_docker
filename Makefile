@@ -1,6 +1,6 @@
 .PHONY: build clean push
 IMG_NAME=eu.gcr.io/kubernetes-nomagic-ai/oauth2_proxy
-TAG=2018-03-05
+TAG=athena-2018-09-12
 
 build:
 	docker build -t $(IMG_NAME):$(TAG) .
