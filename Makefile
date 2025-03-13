@@ -1,5 +1,5 @@
 .PHONY: build clean push
-IMG_NAME=eu.gcr.io/kubernetes-nomagic-ai/oauth2_proxy
+IMG_NAME=europe-west3-docker.pkg.dev/management-nomagic-ai/images/oauth2_proxy
 TAG=2018-03-05
 
 build:
